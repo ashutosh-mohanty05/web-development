@@ -1,0 +1,77 @@
+#navigation{
+    background: rgb(51, 50, 52) 100%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    border: 2px white;
+    overflow: hidden;
+}
+#head{
+   width: 100%; 
+}
+.container{
+    background-color: rgb(169, 164, 164);
+    padding: 10px 0px;
+    margin: 0px;
+    border: rgb(119, 115, 115);
+    border-radius: 10px;
+}
+*{
+    box-sizing: border-box;
+    list-style:none;
+}
+nav a{
+    color: white;
+    float: left;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+#dog1{
+padding: 10px;
+overflow: hidden;
+}
+#dog2{
+    padding: 10px;
+    overflow: hidden;
+    }
+    #dog3{
+        padding: 10px;
+        overflow: hidden;
+        }
+        #dog4{
+            padding: 10px;
+            overflow: hidden;
+            }
+            #dog1 img{
+                float: right;
+                }#dog2 img{
+                    float: right;
+                    }#dog3 img{
+                        float: right;
+                        }#dog4 img{
+                            float: right;
+                            }
+
+
+#dog1 input[type="submit"]{
+    float: right;
+}
+#dog2 input[type="submit"]{
+    float: right;
+}
+#dog3 input[type="submit"]{
+    float: right;
+}
+#dog4 input[type="submit"]{
+    float: right;
+}
+footer{
+    background-color: rgb(12, 13, 23);
+    overflow: hidden;
+}
+footer a{
+    padding: 10px 10px;
+    text-decoration: none;
+    float: left;
+    color: white;
+}

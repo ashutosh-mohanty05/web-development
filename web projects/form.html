@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: 20px;
+            margin: 15px;
+        }
+h1{
+    text-align: center;
+    font: 300;
+    color: rgb(254, 251, 251);
+    background-color: rgb(5, 93, 20);
+    padding: 30px 0px;
+    
+}
+
+.container{
+background-color:rgba(207, 233, 166, 0.642);
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 10px rgb(50, 43, 43);
+}
+.a:hover{
+    color: red;
+}
+.b:hover{
+    color: red;
+}
+
+input[type="submit"]:hover{
+color:rgb(180, 213, 14);
+}
+*{
+    box-sizing: border-box;
+
+}
+input[type="text"],input[type="email"]{
+    padding: 10px;
+    width: 100%;
+    
+}
+input[type="submit"]{
+    background-color:rgb(4, 82, 17);
+    cursor: pointer;
+    border: 10px rgb(0, 13, 6);
+    border-radius: 3px;
+    padding: 5px 5px;
+    color: rgb(253, 251, 251);
+    width: 100%;
+    font: 700;
+    margin: 10px;
+    
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+select{
+    width :100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+   <h1>CONTACT FORM</h1>
+   <hr>
+   <div class="text">
+   <div class="a"><p>Name:
+   *<br><input type ="text" name="name" placeholder="Enter your name" required>
+   </p></div>
+   <div class="b"><p>Email:
+   *<br><input type="email" name="email" placeholder="Enter a valid email address"required>
+</p></div></div>
+<p>Message: <br><textarea name="message" id="message" cols="30" rows="10" placeholder="Your massage to us"></textarea></p>
+<p>Select your <need:br></need:br>
+<select name="their want" id="their want">
+    <option value="">--select--</option>
+    <option value="payment inquiry">payment inquiry</option>
+    <option value="banner">Banner</option>
+    <option value="sticker">Sticker</option>
+    <option value="sun board">Sun Board</option>
+</select>
+</p>
+<p><input type="submit" value="Submit"></p>
+</div>
+</body>
+</html>

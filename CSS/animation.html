@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+.container{
+background-color: aqua;
+width: 30vw;
+height: 80vh;
+}
+.box{
+    width: 34px;
+    height: 45px;
+    background-color: green;
+    /* animation: ashuAnimation 10s linear 5s infinite reverse; */
+    animation-name: ashuAnimation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+}
+@keyframes ashuAnimation {
+    form{
+        /* width: 20px; */
+    }
+    to{
+        /* width:30px; */
+        transform: translateX(1000px);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>

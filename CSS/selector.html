@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selector</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+        /* .box::first-line{
+            color: yellow;
+        }
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        p,a,.box,[data-color='primary']{
+            margin-top: 45px;
+        } */
+        /* .box:nth-child(even){
+            background-color: blue;
+        } */
+        /* .box:nth-last-child(1){
+            background-color: red;
+        } */
+
+        .boxes::before{
+            content: "AShu is a good boy";
+            color: blue;
+        }
+        .boxes::after{
+            content: "web dev course";
+            color: red;
+        }
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+        .box::first-letter{
+            color:peru;
+            font-size: 40px;
+        }
+        input::placeholder{
+            color: grey;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+  <div class="boxes">
+    <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus officiis nostrum harum ad accusamus totam quisquam libero laboriosam consequuntur quas excepturi, atque dolorem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium reprehenderit quae facilis ad est suscipit officia cupiditate! Architecto libero dignissimos repellendus quisquam voluptates consequuntur autem odit veniam, eaque commodi amet, sunt eum!</div>
+    <div class="box">hey am box 2</div>
+    <div class="box">hey am box 3</div>
+    <div class="box">hey am box 4</div>
+   
+  </div>
+  <input type="text" placeholder="type your name here">  
+</body>
+</html>
