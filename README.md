@@ -1,7 +1,7 @@
 # Web-Development
 
-#Frontend- html,css,js,ReactJS
+**Frontend**- html,css,js,ReactJS
 
-#Backend- NodeJS, ExpressJS
+**Backend**- NodeJS, ExpressJS
 
-#Database- MongoDB 
+**Database**- MongoDB 
